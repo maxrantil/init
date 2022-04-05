@@ -1,0 +1,4 @@
+You can use the command 'crontab' for that. 
+'crontab -e' for getting into the file where you can scheduale commands.
+(use the homepage https://crontab.guru to get help how to scheduale)
+'crontab -l' will list your commands after you have added them.
