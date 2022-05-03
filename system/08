@@ -1,2 +1,4 @@
+# What file contains the RSA keys of systems that are authorized to connect via SSH?
+
 The file, which contains RSA keys of systems that are authorized to connect via SSH is called authorized_keys. This file is located in .ssh folder, which is different for different Users.
 ~/.ssh/authorized_keys
