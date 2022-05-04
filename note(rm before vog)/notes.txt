@@ -1,0 +1,69 @@
+Tryhackme course:
+https://tryhackme.com/module/network-fundamentals
+https://tryhackme.com/room/introtolan
+
+YouTube Introdaction to computer networking, Stanford Uni
+https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS
+
+Subnetting:
+https://www.auvik.com/franklyit/blog/subnetting-primer/#:~:text=What%20is%20subnetting%3F,has%20only%20one%20IP%20address.
+
+DNS
+DNS is a directory of names that match with numbers
+https://www.cloudflare.com/learning/dns/what-is-dns/
+https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html
+
+NAT
+Network Address Translation (NAT) is a process that enables one, unique IP address to represent an entire group of computers. 
+https://avinetworks.com/glossary/network-address-translation/
+
+DHCP server
+A DHCP Server is a network server that automatically provides and assigns IP addresses, default gateways and other network parameters to client devices
+https://www.infoblox.com/glossary/dhcp-server/#:~:text=A%20DHCP%20Server%20is%20a,network%20parameters%20to%20client%20devices.&text=DHCP%20servers%20usually%20assign%20each,that%20IP%20address%20has%20expired.
+
+HOST name
+A host name is a unique name or label assigned to any device that is connected to a specific computer network. 
+It facilitates the differentiation of different machines or devices connected to the Internet, a network and/or both.
+https://www.techopedia.com/definition/7599/host-name#:~:text=A%20host%20name%20is%20a,a%20network%20and%2For%20both.&text=A%20host%20name%20is%20also%20known%20as%20a%20hostname.
+
+ping
+The ping command sends a request over the network to a specific device.
+A successful ping results in a response from the computer that was pinged back to the originating computer.
+https://linux.die.net/man/8/ping
+https://www.paessler.com/it-explained/ping
+https://www.macworld.com/article/181885/pingfind.html
+
+arp 
+manipulate the system ARP cache
+-a: to get a list of all other IP addresses active on your network (after ping)
+https://linux.die.net/man/8/arp
+
+netstat
+For active Internet connections
+Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+https://linux.die.net/man/8/netstat
+
+nslookup
+to query Internet name servers interactively
+https://linux.die.net/man/1/nslookup
+
+traceroute 
+The traceroute command is used to determine the path between two connections. 
+https://www.sciencedirect.com/topics/computer-science/traceroute-command#:~:text=Traceroute%20%E2%80%93%20The%20traceroute%20command%20is,the%20routers%20between%20two%20devices.
+
+dig
+The dig command, allows you to query information about various DNS records, including host addresses, mail exchanges, and name servers.
+https://linux.die.net/man/1/dig
+
+cut command
+https://www.geeksforgeeks.org/cut-command-linux-examples/
+
+awk command
+https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
+
+https://en.wikipedia.org/wiki/Resolv.conf
+
+The /etc/hosts file
+https://askubuntu.com/questions/183176/what-is-the-use-of-etc-hosts
+https://tldp.org/LDP/solrhe/Securing-Optimizing-Linux-RH-Edition-v1.3/chap9sec95.html
+https://smallbusiness.chron.com/redirect-ip-address-using-hosts-file-51369.html
