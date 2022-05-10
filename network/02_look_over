@@ -2,5 +2,5 @@
 #	(a) Identify broadcast address
 #	(b) Identify all IP adresses which are part of the same subnet
 
-a, ifconfig -a | awk '/broadcast/ {print $6}'
+a, ip a | awk '/brd/ {print $4}'
 b, nmap -ssn <inet/host> eg. 172.20.10.2/28
