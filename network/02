@@ -2,4 +2,5 @@
 #	(a) Identify broadcast address
 #	(b) Identify all IP adresses which are part of the same subnet
 
-a, "ifconfig -a | awk '/broadcast/ {print $6}'"
+a, ip a | awk '/brd/ {print $4}'
+b, ip neigh | awk '{print $1}'

@@ -1,3 +1,5 @@
 # Identify the MAC address of the Wi-Fi card
 
-networksetup -listallhardwareports
+#networksetup -listallhardwareports
+
+ip a | awk '/ether/ {print $2}'
