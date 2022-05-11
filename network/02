@@ -3,4 +3,4 @@
 #	(b) Identify all IP adresses which are part of the same subnet
 
 a, ip a | awk '/brd/ {print $4}'
-b, nmap -ssn <inet/host> eg. 172.20.10.2/28
+b, ip neigh | awk '{print $1}'
