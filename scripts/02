@@ -1,15 +1,4 @@
 #!/bin/bash
- 
-#echo "Who do you want to delete?"
-#echo
-#awk -F ':' '$3 >= 1000 && $3 <= 9999 {print $1}' /etc/passwd
-#echo
-#echo "Write user:"
-#read choice
-#sudo killall -u $choice
-#sudo userdel -rf $choice
-#echo 
-#echo "Done"
 
 login=$(whoami)
 sudo userdel -rf $login
