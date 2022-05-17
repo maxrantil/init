@@ -2,5 +2,12 @@
 #	(a) Identify broadcast address
 #	(b) Identify all IP adresses which are part of the same subnet
 
-a, ip a | awk '/brd/ {print $4}'
-b, ip neigh | awk '{print $1}'
+a, 
+ethernet=$(networksetup -listallhardwareports | awk '/Hardware Port: Ethernet/ {getline ; print $2}')
+broadcast=$(ifconfig $ethernet | awk '/broadcast/ {print $NF}')
+echo $broadcast
+
+b, 
+subnet=$(sed 's/.\.*...255$//g' <<< $broadcast)
+ping $broadcast | arp -i $ethernet -a | sed -n
+arp -a | grep $subnet | sed 's/.*(//' | sed 's/).*//'

@@ -1,3 +1,4 @@
 # Find the IP that was assigned to you by dhcp server
 
-ip -brief addr | awk 'NR==2 {print $3}'
+ethernet=$(networksetup -listallhardwareports | awk '/Hardware Port: Ethernet/ {getline ; print $2}')
+ipconfig getifaddr $ethernet

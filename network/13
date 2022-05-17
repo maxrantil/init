@@ -1,5 +1,7 @@
 # Thanks to the previous question and the reverse DNS find the name of your host
 
-# $ nslookup 10.11.1.7 | awk '/name/ {print}'
+# ethernet=$(networksetup -listallhardwareports | awk '/Hardware Port: #Ethernet/ {getline ; print $2}')
+# host=$(ipconfig getifaddr $ethernet)
+# nslookup $host | awk '/name/ {print $NF}'
 
-7.1.11.10.in-addr.arpa  name = c1r1p7.hive.fi.
+c1r2p1.hive.fi.

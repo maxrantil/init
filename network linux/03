@@ -1,0 +1,5 @@
+# Identify the MAC address of the Wi-Fi card
+
+wifi=$(networksetup -listallhardwareports | awk '/Hardware Port: Wi-Fi/ {getline ; print $2}')
+macaddr=$(ifconfig $wifi | awk '/ether/ {print $NF}')
+echo $macaddr
