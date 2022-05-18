@@ -1,5 +1,3 @@
-#!/bin/sh
-
 # Find the command that kills the background command’s process
 
-echo 'kill -KILL $(jobs -p)'
+sudo pkill tail

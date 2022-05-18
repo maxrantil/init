@@ -1,4 +1,3 @@
 # In what file can you find the installed version of your Debian?
 
-in the file: /etc/issue
-'cat /etc/issue' or 'lsb_release -d' to show the debian version
+in the file: /etc/debian_version
