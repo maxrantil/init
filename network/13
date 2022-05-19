@@ -1,6 +1,6 @@
 # Thanks to the previous question and the reverse DNS find the name of your host
 
-# ethernet=$(networksetup -listallhardwareports | awk '/Hardware Port: #Ethernet/ {getline ; print $2}')
+# ethernet=$(networksetup -listallhardwareports | awk '/Hardware Port: Ethernet/ {getline ; print $2}')
 # host=$(ipconfig getifaddr $ethernet)
 # nslookup $host | awk '/name/ {print $NF}'
 
