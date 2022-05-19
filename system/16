@@ -1,5 +1,4 @@
-# Find the service which makes it possible to run specific tasks following a regular
-# schedule
+# Find the service which makes it possible to run specific tasks following a regular schedule
 
 'cron' is the name of the service.
 You can use the command 'crontab' for running it. 

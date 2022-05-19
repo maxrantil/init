@@ -1,9 +1,8 @@
-# Explain how connect yourself as new user.
-# (With graphic session and ssh session)
+# Explain how connect yourself as new user. (With graphic session and ssh session)
 
 In graphical session:
 Open the VM and fill in login/username & password.
 If already open, logout first.
 
 In ssh session:
-We write 'ssh <username>@<vm_ip> -p <port>' then write 'Yes' to adding the host in the file ~/.ssh/known_hosts, then wirte the password if there is one, you can also use public/private ssh-keys to login without password.
+We write 'ssh <username>@<vm_ip> -p <port>', then write 'Yes' to adding the host in the file ~/.ssh/known_hosts, then write the password if there is one, you can also use public/private ssh-keys to login without password.

@@ -9,4 +9,4 @@ read choice
 sudo killall -u $choice
 sudo userdel -rf $choice
 echo 
-echo "Done"
+echo "Done."
