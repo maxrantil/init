@@ -1,3 +1,4 @@
 # Name the command that displays the available space left and used on the system in an humanly understandable way
 
+#df -H (for dividing a GB/GiB with 1024 instead of 1000)
 df -h
