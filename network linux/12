@@ -1,3 +1,0 @@
-# Find the IP that was assigned to you by dhcp server
-
-ip -brief addr | awk 'NR==2 {print $3}'

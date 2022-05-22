@@ -1,3 +1,0 @@
-# Identifiy the default gateway in the routing table
-
-netstat -rn | awk 'NR == 3 {print $2}'
